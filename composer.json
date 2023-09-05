@@ -1,0 +1,42 @@
+{
+    "name": "plentymarkets/logger",
+    "description": "This package offers a variety of features for meaningful logging.",
+    "keywords": [
+        "plentymarkets",
+        "logger"
+    ],
+    "homepage": "https://github.com/patricpoba/logger",
+    "license": "The Unlicense",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Patrick O.Baidoo-Antwi",
+            "email": "patrick.baidoo.antwi@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plentymarkets\\Logger\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Plentymarkets\\Logger\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
