@@ -1,0 +1,55 @@
+[
+    {
+        "timestamp": "2023-09-08 18:25:05 PM",
+        "level": "WARNING",
+        "message": "GENERRIC LOG with warning level",
+        "meta": {
+            "context": "in_Code",
+            "userId": "123"
+        }
+    },
+    {
+        "timestamp": "2023-09-08 18:25:05 PM",
+        "level": "INFO",
+        "message": "INFORMATION message",
+        "meta": {
+            "context": "in_Code",
+            "userId": "123"
+        }
+    },
+    {
+        "timestamp": "2023-09-08 18:25:05 PM",
+        "level": "ERROR",
+        "message": "error message",
+        "meta": {
+            "context": "webhook",
+            "userId": "123"
+        }
+    },
+    {
+        "transaction_ID": "98630d0a18410208eb4556401656b597",
+        "transaction_attributes": {
+            "source": "cron_job operations"
+        },
+        "logs": [
+            {
+                "timestamp": "2023-09-08 18:25:05 PM",
+                "level": "ERROR",
+                "message": "TXN error message",
+                "meta": {
+                    "context": "db_trans",
+                    "userId": "123"
+                }
+            },
+            {
+                "timestamp": "2023-09-08 18:25:05 PM",
+                "level": "DEBUG",
+                "message": "TXN Debug message",
+                "meta": {
+                    "context": "in_",
+                    "userId": "123"
+                }
+            }
+        ]
+    }
+]

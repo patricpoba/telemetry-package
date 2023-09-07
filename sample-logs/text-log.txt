@@ -1,0 +1,12 @@
+[2023-09-08 18:25:31 PM] WARNING: GENERRIC LOG with warning level. Meta: in_Code, 123
+
+[2023-09-08 18:25:31 PM] INFO: INFORMATION message. Meta: in_Code, 123
+
+[2023-09-08 18:25:31 PM] ERROR: error message. Meta: webhook, 123
+
+TRANSACTION: 98630d0a18410208eb4556401656b597
+TRANSACTION ATTRIBUTES: {"source":"cron_job operations"}
+TRANSACTION LOGS: 
+[TXN_LOG]:[2023-09-08 18:25:31 PM] ERROR: TXN error message. Meta: db_trans, 123
+[TXN_LOG]:[2023-09-08 18:25:31 PM] DEBUG: TXN Debug message. Meta: in_, 123
+
